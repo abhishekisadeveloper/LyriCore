@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -665,11 +665,6 @@ video {
 .bg-\[\#ffebeb\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 235 235 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#d53232\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(213 50 50 / var(--tw-bg-opacity, 1));
 }
 
 .px-4 {
