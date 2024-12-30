@@ -14,30 +14,31 @@
 </head>
 
 <body style="font-family: 'Quicksand', sans-serif;">
-    <nav>
-        <div class="flex justify-between bg-[#7e09a9] text-white text-xl h-16 items-center
+    <header>
+        <nav>
+            <div class="flex justify-between bg-[#25acce] text-white text-xl h-16 items-center
         sm:text-[2rem]">
 
-            <!-- logo -->
-            <div class="ml-1
+                <!-- logo -->
+                <div class="ml-4
             sm:ml-8">
-                <a class="hover:underline transition-all duration-100 rounded-xl"
-                    href="#">LyriCore</a>
-            </div>
+                    <a class="hover:underline transition-all duration-100 rounded-xl" href="index.html">LyriCore</a>
+                </div>
 
-            <!-- links -->
-            <div class="flex mr-1
+                <!-- links -->
+                <div class="flex mr-4
             sm:mr-8">
-                <a class="hover:underline transition-all duration-100 rounded-xl" href="#">Lyrics</a>
+                    <a class="hover:underline transition-all duration-100 rounded-xl" href="#SONGS">Lyrics</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- Main Body -->
     <main>
-        <div class="flex" style="background-image:url(concert-3387324_640.jpg); background: linear-gradient(to right, rgba(0, 0, 0, 0.972), rgba(0, 0, 0, 0.863)), url(/src/concert-3387324_640.jpg); 
-        width: 100%; background-size: cover; background-position: center;
-        background-repeat: no-repeat;">
+        <div class="flex" style="background-image:url(concert-3387324_640.jpg); background: linear-gradient(to right, rgba(0, 0, 0, 0.972), rgba(0, 0, 0, 0.863)), url(/src/concert-3387324_640.jpg);
+        width: 100%; height: 90vh; background-size: cover; background-position: center;
+        background-repeat: no-repeat; aspect-ratio: 640/427;">
 
             <div class="flex items-center sm:items-start flex-col sm:w-3/4 text-white gap-7 my-12 mx-8">
                 <h1 class="text-[2.7rem] text-center sm:text-left sm:text-[3rem] md:text-[4rem] font-semibold">
@@ -51,27 +52,30 @@
                     Explore our vast collection of devotional and patriotic lyrics that inspire, uplift, and unite.
                 </p>
 
-                <a class="md:text-xl px-6 py-4 hover:bg-[#d90266] bg-[#7e09a9] transition-all duration-100 rounded-xl w-[10rem] sm:w-48  text-center mt-4"
-                    href="#">Get your lyrics</a>
+                <a class="md:text-xl px-6 py-4 hover:bg-[#22788c] bg-[#25acce] transition-all duration-100 rounded-xl w-[10rem] sm:w-48  text-center mt-4"
+                    href="#SONGS">Get your lyrics</a>
             </div>
         </div>
 
         <!-- FOR SONGS -->
-        <div class="flex flex-col ml-8 mr-8">
+        <div id="SONGS" class="flex flex-col ml-8 mr-8">
             <h2 class="text-[2rem] sm:text-[3rem] font-semibold text-[#222422] mt-20">Songs Lyrics</h2>
 
             <!-- All Songs -->
-            <div class="flex mt-12 justify-start sm:justify-center">
+            <div class="flex mt-12 justify-center sm:justify-start mb-[3rem]">
 
-                <div class="flex gap-3 sm:gap-6 items-center hover:bg-[#e1eefc] rounded-md cursor-pointer px-4 py-2">
-                    <img src="/src/Untitled design.png" alt="" class="w-[4rem] rounded-md">
+                <a href="/durga-chalisa.html"
+                    class="flex gap-3 sm:gap-6 items-center bg-[#ffe5e1] rounded-md cursor-pointer px-4 py-2">
+                    <img src="/src/Untitled design.png" alt="" class="w-[4rem] rounded-md aspect-[500/500]">
                     <h2 class="font-semibold text-[1rem] sm:text-[1.5rem]">Durga Chalisa Lyrics</h2>
-                </div>
+                </a>
             </div>
         </div>
     </main>
 
-    <div class="h-[50rem]"></div>
+    <footer class="flex items-center justify-center bg-[#022533] text-white pt-4 pb-4">
+        <p>&copy; 2024 Shri Durga Chalisa. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
